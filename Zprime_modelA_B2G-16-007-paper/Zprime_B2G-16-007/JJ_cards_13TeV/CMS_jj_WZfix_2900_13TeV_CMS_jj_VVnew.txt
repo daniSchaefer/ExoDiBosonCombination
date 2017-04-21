@@ -1,0 +1,79 @@
+Combination of CMS_jj_WWHP=datacards_withPDFuncertainties/CMS_jj_WZ_2900_13TeV_CMS_jj_WWHP.txt  CMS_jj_WZHP=datacards_withPDFuncertainties/CMS_jj_WZ_2900_13TeV_CMS_jj_WZHP.txt  CMS_jj_ZZHP=datacards_withPDFuncertainties/CMS_jj_WZ_2900_13TeV_CMS_jj_ZZHP.txt  CMS_jj_WWLP=datacards_withPDFuncertainties/CMS_jj_WZ_2900_13TeV_CMS_jj_WWLP.txt  CMS_jj_WZLP=datacards_withPDFuncertainties/CMS_jj_WZ_2900_13TeV_CMS_jj_WZLP.txt  CMS_jj_ZZLP=datacards_withPDFuncertainties/CMS_jj_WZ_2900_13TeV_CMS_jj_ZZLP.txt
+imax 6 number of bins
+jmax 3 number of processes minus 1
+kmax 11 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes RS1WW_jj     CMS_jj_WWHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_2900_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_WWHP
+shapes RS1ZZ_jj     CMS_jj_WWHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_2900_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_WWHP
+shapes WZ_jj        CMS_jj_WWHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_2900_13TeV.root w_all:WZ_jj_sig_CMS_jj_WWHP
+shapes bkg_fit_jj   CMS_jj_WWHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_WWHP_13TeV
+shapes data_obs     CMS_jj_WWHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_WWHP
+shapes RS1WW_jj     CMS_jj_WWLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_2900_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_WWLP
+shapes RS1ZZ_jj     CMS_jj_WWLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_2900_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_WWLP
+shapes WZ_jj        CMS_jj_WWLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_2900_13TeV.root w_all:WZ_jj_sig_CMS_jj_WWLP
+shapes bkg_fit_jj   CMS_jj_WWLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_WWLP_13TeV
+shapes data_obs     CMS_jj_WWLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_WWLP
+shapes RS1WW_jj     CMS_jj_WZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_2900_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_WZHP
+shapes RS1ZZ_jj     CMS_jj_WZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_2900_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_WZHP
+shapes WZ_jj        CMS_jj_WZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_2900_13TeV.root w_all:WZ_jj_sig_CMS_jj_WZHP
+shapes bkg_fit_jj   CMS_jj_WZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_WZHP_13TeV
+shapes data_obs     CMS_jj_WZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_WZHP
+shapes RS1WW_jj     CMS_jj_WZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_2900_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_WZLP
+shapes RS1ZZ_jj     CMS_jj_WZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_2900_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_WZLP
+shapes WZ_jj        CMS_jj_WZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_2900_13TeV.root w_all:WZ_jj_sig_CMS_jj_WZLP
+shapes bkg_fit_jj   CMS_jj_WZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_WZLP_13TeV
+shapes data_obs     CMS_jj_WZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_WZLP
+shapes RS1WW_jj     CMS_jj_ZZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_2900_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_ZZHP
+shapes RS1ZZ_jj     CMS_jj_ZZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_2900_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_ZZHP
+shapes WZ_jj        CMS_jj_ZZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_2900_13TeV.root w_all:WZ_jj_sig_CMS_jj_ZZHP
+shapes bkg_fit_jj   CMS_jj_ZZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_ZZHP_13TeV
+shapes data_obs     CMS_jj_ZZHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_ZZHP
+shapes RS1WW_jj     CMS_jj_ZZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_2900_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_ZZLP
+shapes RS1ZZ_jj     CMS_jj_ZZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_2900_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_ZZLP
+shapes WZ_jj        CMS_jj_ZZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_2900_13TeV.root w_all:WZ_jj_sig_CMS_jj_ZZLP
+shapes bkg_fit_jj   CMS_jj_ZZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_ZZLP_13TeV
+shapes data_obs     CMS_jj_ZZLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_ZZLP
+----------------------------------------------------------------------------------------------------------------------------------
+bin          CMS_jj_WWHP  CMS_jj_WZHP  CMS_jj_ZZHP  CMS_jj_WWLP  CMS_jj_WZLP  CMS_jj_ZZLP
+observation  303.0        763.0        495.0        2085.0       4498.0       2178.0     
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                            CMS_jj_WWHP  CMS_jj_WWHP  CMS_jj_WWHP  CMS_jj_WWHP  CMS_jj_WZHP  CMS_jj_WZHP  CMS_jj_WZHP  CMS_jj_WZHP  CMS_jj_ZZHP  CMS_jj_ZZHP  CMS_jj_ZZHP  CMS_jj_ZZHP  CMS_jj_WWLP  CMS_jj_WWLP  CMS_jj_WWLP  CMS_jj_WWLP  CMS_jj_WZLP  CMS_jj_WZLP  CMS_jj_WZLP  CMS_jj_WZLP  CMS_jj_ZZLP  CMS_jj_ZZLP  CMS_jj_ZZLP  CMS_jj_ZZLP
+process                                        RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj 
+process                                        -2           -1           0            1            -2           -1           0            1            -2           -1           0            1            -2           -1           0            1            -2           -1           0            1            -2           -1           0            1          
+rate 				    0.00000e+00  1.06378e-01  0.00000e+00  1.00000e+00  0.00000e+00  2.31893e-01  0.00000e+00  1.00000e+00  0.00000e+00  4.54266e-02  0.00000e+00  1.00000e+00  0.00000e+00  3.37379e-01  0.00000e+00  1.00000e+00  0.00000e+00  4.92601e-01  0.00000e+00  1.00000e+00  0.00000e+00  5.84849e-02  0.00000e+00  1.00000e+00  
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_vtag_tau21_sf_13TeV   lnN              1.440/0.640  1.440/0.640  1.440/0.640  -            1.440/0.640  1.440/0.640  1.440/0.640  -            1.440/0.640  1.440/0.640  1.440/0.640  -            0.880/1.010  0.880/1.010  0.880/1.010  -            0.880/1.010  0.880/1.010  0.880/1.010  -            0.880/1.010  0.880/1.010  0.880/1.010  -          
+CMS_mass_res_j_13TeV    lnN                    0.991/0.997  0.991/0.997  0.991/0.997  -            0.988/1.010  0.988/1.010  0.988/1.010  -            1.057/1.003  1.057/1.003  1.057/1.003  -            1.001/1.014  1.001/1.014  1.001/1.014  -            0.977/0.996  0.977/0.996  0.977/0.996  -            1.092/1.021  1.092/1.021  1.092/1.021  -          
+CMS_mass_scale_j_13TeV   lnN                   0.898/1.103  0.898/1.103  0.898/1.103  -            1.014/0.978  1.014/0.978  1.014/0.978  -            1.133/0.893  1.133/0.893  1.133/0.893  -            0.934/1.063  0.934/1.063  0.934/1.063  -            1.024/0.966  1.024/0.966  1.024/0.966  -            1.152/0.857  1.152/0.857  1.152/0.857  -          
+CMS_pu_13TeV            lnN                    1.015        1.015        1.015        -            1.015        1.015        1.015        -            1.015        1.015        1.015        -            1.015        1.015        1.015        -            1.015        1.015        1.015        -            1.015        1.015        1.015        -          
+CMS_res_j_13TeV         lnN                    1.000/1.000  1.000/1.000  1.000/1.000  -            1.000/1.000  1.000/1.000  1.000/1.000  -            1.000/1.000  1.000/1.000  1.000/1.000  -            1.000/1.000  1.000/1.000  1.000/1.000  -            1.000/1.000  1.000/1.000  1.000/1.000  -            1.000/1.000  1.000/1.000  1.000/1.000  -          
+CMS_scale_j_13TeV       lnN                    0.760/1.280  0.760/1.280  0.760/1.280  -            1.015/0.943  1.015/0.943  1.015/0.943  -            1.374/0.709  1.374/0.709  1.374/0.709  -            0.840/1.169  0.840/1.169  0.840/1.169  -            1.055/0.910  1.055/0.910  1.055/0.910  -            1.433/0.653  1.433/0.653  1.433/0.653  -          
+lumi_13TeV              lnN                    1.046        1.046        1.046        -            1.046        1.046        1.046        -            1.046        1.046        1.046        -            1.046        1.046        1.046        -            1.046        1.046        1.046        -            1.046        1.046        1.046        -          
+CMS_sig_p2_jer_13TeV  param  0.0 1.0
+CMS_sig_p1_jes_13TeV  param  0.0 1.0
+CMS_bkg_fit_slope1_CMS_jj_ZZLP_13TeV  flatParam
+CMS_bkg_fit_slope2_CMS_jj_WZHP_13TeV  flatParam
+CMS_bkg_fit_slope3_CMS_jj_WWHP_13TeV  flatParam
+CMS_bkg_fit_slope1_CMS_jj_WWHP_13TeV  flatParam
+CMS_bkg_fit_slope2_CMS_jj_ZZLP_13TeV  flatParam
+CMS_bkg_fit_CMS_jj_ZZLP_13TeV_norm  flatParam
+CMS_bkg_fit_CMS_jj_WWLP_13TeV_norm  flatParam
+CMS_bkg_fit_slope2_CMS_jj_ZZHP_13TeV  flatParam
+CMS_bkg_fit_CMS_jj_WZHP_13TeV_norm  flatParam
+CMS_bkg_fit_slope3_CMS_jj_WZHP_13TeV  flatParam
+CMS_bkg_fit_CMS_jj_WWHP_13TeV_norm  flatParam
+CMS_bkg_fit_slope3_CMS_jj_ZZLP_13TeV  flatParam
+CMS_bkg_fit_CMS_jj_ZZHP_13TeV_norm  flatParam
+CMS_bkg_fit_slope3_CMS_jj_WZLP_13TeV  flatParam
+CMS_bkg_fit_slope1_CMS_jj_ZZHP_13TeV  flatParam
+CMS_bkg_fit_CMS_jj_WZLP_13TeV_norm  flatParam
+CMS_bkg_fit_slope2_CMS_jj_WWHP_13TeV  flatParam
+CMS_bkg_fit_slope2_CMS_jj_WZLP_13TeV  flatParam
+CMS_bkg_fit_slope3_CMS_jj_ZZHP_13TeV  flatParam
+CMS_bkg_fit_slope1_CMS_jj_WZHP_13TeV  flatParam
+CMS_bkg_fit_slope1_CMS_jj_WZLP_13TeV  flatParam
+CMS_bkg_fit_slope1_CMS_jj_WWLP_13TeV  flatParam
+CMS_bkg_fit_slope3_CMS_jj_WWLP_13TeV  flatParam
+CMS_bkg_fit_slope2_CMS_jj_WWLP_13TeV  flatParam
+CMS_XS_qq_PDF lnN				    -  1.081  -  -  -  1.081  -  -  -  1.081  -  -  -  1.081  -  -  -  1.081  -  -  -  1.081  -  -  
+CMS_XS_qq_scale lnN				    -  1.109  -  -  -  1.109  -  -  -  1.109  -  -  -  1.109  -  -  -  1.109  -  -  -  1.109  -  -  

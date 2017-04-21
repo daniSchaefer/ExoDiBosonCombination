@@ -1,0 +1,63 @@
+Combination of XZheeb=XZheeb_M1600.txt  XZheebb=XZheebb_M1600.txt
+imax 2 number of bins
+jmax 5 number of processes minus 1
+kmax 45 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *         XZheeb    workspaces/XZheeb.root Vh_2015:$PROCESS
+shapes data_obs  XZheeb    workspaces/XZheeb.root Vh_2015:data_obs
+shapes *         XZheebb   workspaces/XZheebb.root Vh_2015:$PROCESS
+shapes data_obs  XZheebb   workspaces/XZheebb.root Vh_2015:data_obs
+----------------------------------------------------------------------------------------------------------------------------------
+bin          XZheeb   XZheebb
+observation  -1.0     -1.0   
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                      XZheeb             XZheeb             XZheeb             XZheeb             XZheebb            XZheebb            XZheebb            XZheebb          
+process                                  XZh_M1600_XZheeb   Top                VV                 Main_XZheeb        XZh_M1600_XZheebb  Main_XZheebb       Top                VV               
+process                                  -1                 1                  2                  3                  0                  4                  1                  2                
+rate                                     6.1285             0.1559             0.7196             3.8826             10.5937            0.9202             0.0528             0.1524           
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_XZheeb_altf_Main    lnN              -                  -                  -                  1.259              -                  -                  -                  -                
+CMS_XZheeb_norm_Main    lnN              -                  -                  -                  1.283              -                  -                  -                  -                
+CMS_XZheeb_norm_Top     lnN              -                  1.35               -                  -                  -                  -                  -                  -                
+CMS_XZheeb_norm_VV      lnN              -                  -                  1.05               -                  -                  -                  -                  -                
+CMS_XZheebb_altf_Main   lnN              -                  -                  -                  -                  -                  1.072              -                  -                
+CMS_XZheebb_norm_Main   lnN              -                  -                  -                  -                  -                  1.512              -                  -                
+CMS_XZheebb_norm_Top    lnN              -                  -                  -                  -                  -                  -                  1.445              -                
+CMS_XZheebb_norm_VV     lnN              -                  -                  -                  -                  -                  -                  -                  1.339            
+CMS_eff_b_13TeV         lnN              1.062              1.083              1.016              -                  1.256              -                  1.001              1.113            
+CMS_eff_e_13TeV         lnN              1.072              1.072              1.072              -                  1.072              -                  1.072              1.072            
+CMS_eff_h_13TeV         lnN              1.07               -                  -                  -                  1.07               -                  -                  -                
+CMS_eff_m_13TeV         lnN              1.02               1.02               1.02               -                  1.02               -                  1.02               1.02             
+CMS_res_j_13TeV         lnN              1.022              -                  -                  -                  1.022              -                  -                  -                
+CMS_scale_j_13TeV       lnN              1.014              1.136              1.016              -                  1.014              -                  1.04               1.036            
+CMS_scale_pu_13TeV      lnN              1.03               1.03               1.03               -                  1.03               -                  1.03               1.03             
+CMS_xsec_Top            lnN              -                  1.2                -                  -                  -                  -                  1.2                -                
+CMS_xsec_VV             lnN              -                  -                  1.2                -                  -                  -                  -                  1.2              
+QCD_scale               lnN              1.056              1.214              1.078              -                  1.056              -                  1.377              1.086            
+lumi_13TeV              lnN              1.027              1.027              1.027              -                  1.027              -                  1.027              1.027            
+pdf                     lnN              1.03               1.002              1.002              -                  1.03               -                  1.002              1.002            
+CMS_sig_p2_scale_e_13TeV  param  0.0 1.0
+CMS_Top_p0_fit_13TeV  param  0.0 1.0
+CMS_VV_p0_jes_13TeV  param  0.0 1.0
+CMS_sig_p1_jes_13TeV  param  0.0 1.0
+XZheebb_eig4  param  0.0 1.0
+XZheebb_eig5  param  0.0 1.0
+XZheebb_eig0  param  0.0 1.0
+XZheebb_eig1  param  0.0 1.0
+XZheebb_eig2  param  0.0 1.0
+XZheebb_eig3  param  0.0 1.0
+CMS_sig_p1_scale_e_13TeV  param  0.0 1.0
+CMS_VV_p1_fit_13TeV  param  0.0 1.0
+CMS_sig_p2_jer_13TeV  param  0.0 1.0
+CMS_VV_p0_QCD_scale_13TeV  param  0.0 1.0
+CMS_Top_p1_fit_13TeV  param  0.0 1.0
+CMS_Top_p0_QCD_scale_13TeV  param  0.0 1.0
+CMS_Top_p0_jes_13TeV  param  0.0 1.0
+XZheeb_eig4   param  0.0 1.0
+XZheeb_eig1   param  0.0 1.0
+XZheeb_eig0   param  0.0 1.0
+XZheeb_eig3   param  0.0 1.0
+XZheeb_eig2   param  0.0 1.0
+XZheeb_eig5   param  0.0 1.0
+CMS_sig_p2_jes_13TeV  param  0.0 1.0
+CMS_VV_p0_fit_13TeV  param  0.0 1.0

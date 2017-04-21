@@ -1,0 +1,93 @@
+Combination of XWhen=XWhen_M3200.txt  XWhmn=XWhmn_M3200.txt
+imax 4 number of bins
+jmax 9 number of processes minus 1
+kmax 71 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *              XWhen_XWhenb   workspaces/XWhenb.root Vh_2015:$PROCESS
+shapes data_obs       XWhen_XWhenb   workspaces/XWhenb.root Vh_2015:data_obs
+shapes *              XWhen_XWhenbb  workspaces/XWhenbb.root Vh_2015:$PROCESS
+shapes data_obs       XWhen_XWhenbb  workspaces/XWhenbb.root Vh_2015:data_obs
+shapes *              XWhmn_XWhmnb   workspaces/XWhmnb.root Vh_2015:$PROCESS
+shapes data_obs       XWhmn_XWhmnb   workspaces/XWhmnb.root Vh_2015:data_obs
+shapes *              XWhmn_XWhmnbb  workspaces/XWhmnbb.root Vh_2015:$PROCESS
+shapes data_obs       XWhmn_XWhmnbb  workspaces/XWhmnbb.root Vh_2015:data_obs
+----------------------------------------------------------------------------------------------------------------------------------
+bin          XWhen_XWhenb   XWhen_XWhenbb  XWhmn_XWhmnb   XWhmn_XWhmnbb
+observation  -1.0           -1.0           -1.0           -1.0         
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                      XWhen_XWhenb       XWhen_XWhenb       XWhen_XWhenb       XWhen_XWhenb       XWhen_XWhenbb      XWhen_XWhenbb      XWhen_XWhenbb      XWhen_XWhenbb      XWhmn_XWhmnb       XWhmn_XWhmnb       XWhmn_XWhmnb       XWhmn_XWhmnb       XWhmn_XWhmnbb      XWhmn_XWhmnbb      XWhmn_XWhmnbb      XWhmn_XWhmnbb    
+process                                  XWh_M3200_XWhenb   Main_XWhenb        Top                VV                 XWh_M3200_XWhenbb  Top                VV                 Main_XWhenbb       XWh_M3200_XWhmnb   Main_XWhmnb        Top                VV                 XWh_M3200_XWhmnbb  Main_XWhmnbb       Top                VV               
+process                                  -3                 1                  2                  3                  -2                 2                  3                  4                  -1                 5                  2                  3                  0                  6                  2                  3                
+rate                                     23.5316            45.6220            25.7910            2.0066             16.9244            7.0175             0.6750             1.0124             27.2478            56.9420            61.8575            4.7354             19.6183            10.0557            17.1010            2.3226           
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_XWhenb_altf_Main    lnN              -                  1.135              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenb_norm_Main    lnN              -                  1.501              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenb_norm_Top     lnN              -                  -                  1.023              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenb_norm_VV      lnN              -                  -                  -                  1.044              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenb_sf_Top       lnN              -                  -                  1.039              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenbb_altf_Main   lnN              -                  -                  -                  -                  -                  -                  -                  1.524              -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenbb_norm_Main   lnN              -                  -                  -                  -                  -                  -                  -                  1.941              -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenbb_norm_Top    lnN              -                  -                  -                  -                  -                  1.033              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenbb_norm_VV     lnN              -                  -                  -                  -                  -                  -                  1.338              -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhenbb_sf_Top      lnN              -                  -                  -                  -                  -                  1.088              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                
+CMS_XWhmnb_altf_Main    lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  1.091              -                  -                  -                  -                  -                  -                
+CMS_XWhmnb_norm_Main    lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  1.148              -                  -                  -                  -                  -                  -                
+CMS_XWhmnb_norm_Top     lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.014              -                  -                  -                  -                  -                
+CMS_XWhmnb_norm_VV      lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.041              -                  -                  -                  -                
+CMS_XWhmnb_sf_Top       lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.039              -                  -                  -                  -                  -                
+CMS_XWhmnbb_altf_Main   lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.09               -                  -                
+CMS_XWhmnbb_norm_Main   lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.335              -                  -                
+CMS_XWhmnbb_norm_Top    lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.023              -                
+CMS_XWhmnbb_norm_VV     lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.376            
+CMS_XWhmnbb_sf_Top      lnN              -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  -                  1.088              -                
+CMS_eff_b_13TeV         lnN              1.121              -                  1.092              1.113              1.139              1.107              1.02               -                  1.121              -                  1.092              1.047              1.139              -                  1.107              1.174            
+CMS_eff_e_13TeV         lnN              1.062              -                  1.0                1.062              1.062              1.0                1.062              -                  1.02               -                  1.0                1.02               1.02               -                  1.0                1.02             
+CMS_eff_h_13TeV         lnN              1.07               -                  -                  -                  1.07               -                  -                  -                  1.07               -                  -                  -                  1.07               -                  -                  -                
+CMS_eff_m_13TeV         lnN              1.02               -                  1.0                1.02               1.02               1.0                1.02               -                  1.075              -                  1.0                1.075              1.075              -                  1.0                1.075            
+CMS_eff_t_13TeV         lnN              1.03               -                  -                  1.03               1.03               -                  1.03               -                  1.03               -                  -                  1.03               1.03               -                  -                  1.03             
+CMS_res_j_13TeV         lnN              1.027              -                  -                  -                  1.027              -                  -                  -                  1.027              -                  -                  -                  1.027              -                  -                  -                
+CMS_scale_j_13TeV       lnN              1.025              -                  1.0                1.036              1.025              1.0                1.062              -                  1.025              -                  1.0                1.026              1.025              -                  1.0                1.018            
+CMS_scale_pu_13TeV      lnN              1.03               -                  1.0                1.03               1.03               1.0                1.03               -                  1.03               -                  1.0                1.03               1.03               -                  1.0                1.03             
+CMS_xsec_VV             lnN              -                  -                  -                  1.2                -                  -                  1.2                -                  -                  -                  -                  1.2                -                  -                  -                  1.2              
+QCD_scale               lnN              1.099              -                  1.0                1.055              1.099              1.0                1.021              -                  1.099              -                  1.0                1.068              1.099              -                  1.0                1.031            
+lumi_13TeV              lnN              1.027              -                  1.0                1.027              1.027              1.0                1.027              -                  1.027              -                  1.0                1.027              1.027              -                  1.0                1.027            
+pdf                     lnN              1.03               -                  1.0                1.002              1.03               1.0                1.002              -                  1.03               -                  1.0                1.002              1.03               -                  1.0                1.002            
+CMS_sig_p2_scale_e_13TeV  param  0.0 1.0
+CMS_Top_p0_fit_13TeV  param  0.0 1.0
+CMS_VV_p0_jes_13TeV  param  0.0 1.0
+CMS_sig_p1_scale_m_13TeV  param  0.0 1.0
+XWhmnb_eig1   param  0.0 1.0
+XWhmnb_eig0   param  0.0 1.0
+CMS_sig_p1_jes_13TeV  param  0.0 1.0
+XWhmnb_eig2   param  0.0 1.0
+XWhmnb_eig5   param  0.0 1.0
+XWhmnb_eig4   param  0.0 1.0
+CMS_sig_p2_scale_m_13TeV  param  0.0 1.0
+XWhmnbb_eig3  param  0.0 1.0
+CMS_sig_p1_scale_e_13TeV  param  0.0 1.0
+CMS_VV_p1_fit_13TeV  param  0.0 1.0
+CMS_sig_p2_jer_13TeV  param  0.0 1.0
+XWhmnb_eig3   param  0.0 1.0
+CMS_VV_p0_QCD_scale_13TeV  param  0.0 1.0
+XWhmnbb_eig4  param  0.0 1.0
+XWhmnbb_eig5  param  0.0 1.0
+XWhmnbb_eig0  param  0.0 1.0
+XWhmnbb_eig1  param  0.0 1.0
+XWhmnbb_eig2  param  0.0 1.0
+CMS_Top_p1_fit_13TeV  param  0.0 1.0
+XWhenbb_eig4  param  0.0 1.0
+XWhenbb_eig5  param  0.0 1.0
+CMS_Top_p0_QCD_scale_13TeV  param  0.0 1.0
+XWhenbb_eig0  param  0.0 1.0
+XWhenbb_eig1  param  0.0 1.0
+XWhenbb_eig2  param  0.0 1.0
+XWhenbb_eig3  param  0.0 1.0
+CMS_Top_p0_jes_13TeV  param  0.0 1.0
+XWhenb_eig1   param  0.0 1.0
+XWhenb_eig0   param  0.0 1.0
+XWhenb_eig3   param  0.0 1.0
+XWhenb_eig2   param  0.0 1.0
+XWhenb_eig5   param  0.0 1.0
+XWhenb_eig4   param  0.0 1.0
+CMS_sig_p2_jes_13TeV  param  0.0 1.0
+CMS_VV_p0_fit_13TeV  param  0.0 1.0

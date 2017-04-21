@@ -1,0 +1,32 @@
+# Card for process XZZ->mm1JLP
+#imax 1  number of channels
+#jmax 1  number of backgrounds
+#kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------ 
+shapes Bulk_xzz CMS_xzz_mm1JLP xzz_mm1JLP.input.root  w:Bulk_xzz_MU1JLP
+shapes backgroundxzz CMS_xzz_mm1JLP xzz_mm1JLP.input.root w:background_decorrLevExpo_xzz_MU1JLP
+shapes data_obs   CMS_xzz_mm1JLP xzz_mm1JLP.input.root w:dataset_obs_xzz_MU1JLP
+------------ 
+bin         CMS_xzz_mm1JLP
+observation   710
+------------ 
+bin                CMS_xzz_mm1JLP	CMS_xzz_mm1JLP
+process            Bulk_xzz			backgroundxzz
+process            0			1
+rate               0.00046147		671.375
+------------ 
+lumi_8TeV			lnN	1.026			1.0
+CMS_xzz_trigger_m	lnN	1.030000    	1.0
+CMS_eff_m		lnN	1.040000    	1.0
+CMS_scale_m		lnN	1.010000    	1.0
+CMS_scale_j		lnN	1.010000/0.990000	1.0
+CMS_eff_vtag_tau21_sf		lnN	0.700000/1.300000	1.0
+CMS_pu		lnN	1.006000    			1.0
+CMS_xzz_alphanorm1b		lnN	 1.0 			1.50888
+CMS_xzz_bkg1JLPmmp0	lnN    ---	1.03152
+expLev_xzz_ALL_1JLP_eig0	param		0.000435208	1.00993
+expLev_xzz_ALL_1JLP_eig1	param		-0.00149669	1.19705
+CMS_sig_p1_scale_m param 0.0 1.0 
+CMS_sig_p2_scale_m param 0.0 1.0 
+CMS_sig_p2_jes param 0.0 1.0
+CMS_sig_p2_jer param 0.0 1.0 

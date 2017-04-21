@@ -1,0 +1,32 @@
+# Fully Hadronic VV analysis
+imax 1
+jmax 3
+kmax *
+---------------
+shapes data_obs CMS_jj_ZZNP ../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_ZZNP
+shapes bkg_fit_jj CMS_jj_ZZNP ../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_ZZNP_13TeV
+shapes RS1WW_jj CMS_jj_ZZNP ../workspaces/CMS_jj_RS1WW_1300_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_ZZNP
+shapes RS1ZZ_jj CMS_jj_ZZNP ../workspaces/CMS_jj_RS1ZZ_1300_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_ZZNP
+shapes WZ_jj CMS_jj_ZZNP ../workspaces/CMS_jj_WZ_1300_13TeV.root w_all:WZ_jj_sig_CMS_jj_ZZNP
+---------------
+bin          CMS_jj_ZZNP
+observation   5564
+------------------------------
+bin                      CMS_jj_ZZNP       CMS_jj_ZZNP      CMS_jj_ZZNP      CMS_jj_ZZNP      
+process                 RS1WW_jj RS1ZZ_jj WZ_jj     bkg_fit_jj     
+process                 -2 -1 0        1          
+rate                        0  0  3.16815  1
+--------------------------------
+# signal scaled by 0.000256465 to a cross section of 10/fb and also scale factor of 1 are applied.
+lumi_13TeV       lnN  1.046  1.046  1.046    - 
+CMS_eff_vtag_tau21_sf_13TeV         lnN  0.88/1.01  0.88/1.01  0.88/1.01      - # tau21 efficiency
+CMS_scale_j_13TeV         lnN  1.020  1.020  1.020      - # jet energy scale
+CMS_res_j_13TeV         lnN  1.10  1.10  1.10      - # jet energy resolution
+CMS_pu_13TeV         lnN  1.015  1.015  1.015      - # pileup
+# Parametric shape uncertainties, entered by hand.
+CMS_sig_p1_jes_13TeV    param   0.0   1.0   # dijet mass shift due to JES uncertainty
+CMS_sig_p2_jer_13TeV     param   0.0   1.0   # dijet mass resolution shift due to JER uncertainty
+CMS_bkg_fit_CMS_jj_ZZNP_13TeV_norm           flatParam  # Normalization uncertainty on background slope
+CMS_bkg_fit_slope1_CMS_jj_ZZNP_13TeV         flatParam  # Mean and absolute uncertainty on background slope
+CMS_bkg_fit_slope2_CMS_jj_ZZNP_13TeV         flatParam  # Mean and absolute uncertainty on background slope
+CMS_bkg_fit_slope3_CMS_jj_ZZNP_13TeV         flatParam  # Mean and absolute uncertainty on background slope

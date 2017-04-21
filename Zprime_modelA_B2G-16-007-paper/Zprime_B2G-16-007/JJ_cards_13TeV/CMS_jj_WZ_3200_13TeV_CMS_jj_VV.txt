@@ -1,0 +1,42 @@
+Combination of CMS_jj_VVHP=datacards_withPDFuncertainties/CMS_jj_WZ_3200_13TeV_CMS_jj_VVHP.txt  CMS_jj_VVLP=datacards_withPDFuncertainties/CMS_jj_WZ_3200_13TeV_CMS_jj_VVLP.txt
+imax 2 number of bins
+jmax 3 number of processes minus 1
+kmax 10 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes RS1WW_jj     CMS_jj_VVHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_3200_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_VVHP
+shapes RS1ZZ_jj     CMS_jj_VVHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_3200_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_VVHP
+shapes WZ_jj        CMS_jj_VVHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_3200_13TeV.root w_all:WZ_jj_sig_CMS_jj_VVHP
+shapes bkg_fit_jj   CMS_jj_VVHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_VVHP_13TeV
+shapes data_obs     CMS_jj_VVHP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_VVHP
+shapes RS1WW_jj     CMS_jj_VVLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1WW_3200_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_VVLP
+shapes RS1ZZ_jj     CMS_jj_VVLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_RS1ZZ_3200_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_VVLP
+shapes WZ_jj        CMS_jj_VVLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_WZ_3200_13TeV.root w_all:WZ_jj_sig_CMS_jj_VVLP
+shapes bkg_fit_jj   CMS_jj_VVLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_VVLP_13TeV
+shapes data_obs     CMS_jj_VVLP  datacards_withPDFuncertainties/../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_VVLP
+----------------------------------------------------------------------------------------------------------------------------------
+bin          CMS_jj_VVHP  CMS_jj_VVLP
+observation  1561.0       8761.0     
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                            CMS_jj_VVHP  CMS_jj_VVHP  CMS_jj_VVHP  CMS_jj_VVHP  CMS_jj_VVLP  CMS_jj_VVLP  CMS_jj_VVLP  CMS_jj_VVLP
+process                                        RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj 
+process                                        -2           -1           0            1            -2           -1           0            1          
+rate                                           0.0000       5.0474       0.0000       1.0000       0.0000       11.8364      0.0000       1.0000     
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_vtag_tau21_sf_13TeV   lnN              1.440/0.640  1.440/0.640  1.440/0.640  -            0.880/1.010  0.880/1.010  0.880/1.010  -          
+CMS_mass_res_j_13TeV    lnN                    0.998/1.006  0.998/1.006  0.998/1.006  -            0.996/1.005  0.996/1.005  0.996/1.005  -          
+CMS_mass_scale_j_13TeV   lnN                   0.999/1.000  0.999/1.000  0.999/1.000  -            1.004/0.990  1.004/0.990  1.004/0.990  -          
+CMS_pu_13TeV            lnN                    1.015        1.015        1.015        -            1.015        1.015        1.015        -          
+CMS_res_j_13TeV         lnN                    1.000/1.000  1.000/1.000  1.000/1.000  -            1.000/1.000  1.000/1.000  1.000/1.000  -          
+CMS_scale_j_13TeV       lnN                    0.995/1.001  0.995/1.001  0.995/1.001  -            1.014/0.978  1.014/0.978  1.014/0.978  -          
+CMS_xww_XS_Wprime_WZ_13TeV   lnN               1.0846863    1.0846863    1.0846863    -            1.0846863    1.0846863    1.0846863    -          
+lumi_13TeV              lnN                    1.046        1.046        1.046        -            1.046        1.046        1.046        -          
+CMS_sig_p2_jer_13TeV  param  0.0 1.0
+CMS_sig_p1_jes_13TeV  param  0.0 1.0
+CMS_bkg_fit_CMS_jj_VVLP_13TeV_norm  flatParam
+CMS_bkg_fit_slope1_CMS_jj_VVLP_13TeV  flatParam
+CMS_bkg_fit_slope2_CMS_jj_VVHP_13TeV  flatParam
+CMS_bkg_fit_slope2_CMS_jj_VVLP_13TeV  flatParam
+CMS_bkg_fit_CMS_jj_VVHP_13TeV_norm  flatParam
+CMS_bkg_fit_slope3_CMS_jj_VVHP_13TeV  flatParam
+CMS_bkg_fit_slope1_CMS_jj_VVHP_13TeV  flatParam
+CMS_bkg_fit_slope3_CMS_jj_VVLP_13TeV  flatParam

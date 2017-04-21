@@ -1,0 +1,72 @@
+Combination of lvjwh8_mv1JLP=whlvj_MWp_1000_bb_mu_ALLP_unbin.txt  lvjwh8_ev1JLP=whlvj_MWp_1000_bb_el_ALLP_unbin.txt
+imax 2 number of bins
+jmax 4 number of processes minus 1
+kmax 46 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes MWp_1000_bb_xwh  lvjwh8_ev1JLP    whlvj_MWp_1000_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes STop_xwh         lvjwh8_ev1JLP    whlvj_MWp_1000_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes TTbar_xwh        lvjwh8_ev1JLP    whlvj_MWp_1000_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes VV_xwh           lvjwh8_ev1JLP    whlvj_MWp_1000_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes WJets_xwh        lvjwh8_ev1JLP    whlvj_MWp_1000_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes data_obs         lvjwh8_ev1JLP    whlvj_MWp_1000_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_xwh_el_ALLP
+shapes MWp_1000_bb_xwh  lvjwh8_mv1JLP    whlvj_MWp_1000_bb_mu_ALLP_workspace.root workspace4limit_:$PROCESS_mu_ALLP
+shapes STop_xwh         lvjwh8_mv1JLP    whlvj_MWp_1000_bb_mu_ALLP_workspace.root workspace4limit_:$PROCESS_mu_ALLP
+shapes TTbar_xwh        lvjwh8_mv1JLP    whlvj_MWp_1000_bb_mu_ALLP_workspace.root workspace4limit_:$PROCESS_mu_ALLP
+shapes VV_xwh           lvjwh8_mv1JLP    whlvj_MWp_1000_bb_mu_ALLP_workspace.root workspace4limit_:$PROCESS_mu_ALLP
+shapes WJets_xwh        lvjwh8_mv1JLP    whlvj_MWp_1000_bb_mu_ALLP_workspace.root workspace4limit_:$PROCESS_mu_ALLP
+shapes data_obs         lvjwh8_mv1JLP    whlvj_MWp_1000_bb_mu_ALLP_workspace.root workspace4limit_:$PROCESS_xwh_mu_ALLP
+----------------------------------------------------------------------------------------------------------------------------------
+bin          lvjwh8_mv1JLP  lvjwh8_ev1JLP
+observation  16.0           9.0          
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                          lvjwh8_mv1JLP    lvjwh8_mv1JLP    lvjwh8_mv1JLP    lvjwh8_mv1JLP    lvjwh8_mv1JLP    lvjwh8_ev1JLP    lvjwh8_ev1JLP    lvjwh8_ev1JLP    lvjwh8_ev1JLP    lvjwh8_ev1JLP  
+process                                      MWp_1000_bb_xwh  STop_xwh         VV_xwh           TTbar_xwh        WJets_xwh        MWp_1000_bb_xwh  STop_xwh         VV_xwh           TTbar_xwh        WJets_xwh      
+process                                      0                1                2                3                4                0                1                2                3                4              
+rate                                         10.1454          0.1990           0.6110           7.1060           6.9910           8.8307           3.6770           0.3700           2.6180           4.6540         
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_e               lnN                  -                -                -                -                -                1.03             1.03             1.03             1.03             -              
+CMS_eff_m               lnN                  1.01             1.01             1.01             1.01             -                -                -                -                -                -              
+CMS_filter_uncertainty_el   lnN              -                -                -                -                -                1.086            1.086            1.086            1.086            1.086          
+CMS_filter_uncertainty_mu   lnN              1.086            1.086            1.086            1.086            1.086            -                -                -                -                -              
+CMS_res_e               lnN                  -                -                -                -                -                1.004            -                -                -                -              
+CMS_res_j               lnN                  1.015            -                -                -                -                1.015            -                -                -                -              
+CMS_res_m               lnN                  1.002            -                -                -                -                -                -                -                -                -              
+CMS_scale_e             lnN                  -                -                -                -                -                1.01             -                -                -                -              
+CMS_scale_j             lnN                  1.021            -                -                -                -                1.021            -                -                -                -              
+CMS_scale_m             lnN                  1.02             -                -                -                -                -                -                -                -                -              
+CMS_xwh_WJ_norm_el_ALLP   lnN                -                -                -                -                -                -                -                -                -                1.591          
+CMS_xwh_WJ_norm_mu_ALLP   lnN                -                -                -                -                1.419            -                -                -                -                -              
+CMS_xww_XS_STop         lnN                  -                1.3              -                -                -                -                1.3              -                -                -              
+CMS_xwh_XS_TTbar        lnN                  -                -                1.054            -                -                -                -                1.054            -                -              
+CMS_xww_XS_VV           lnN                  -                -                1.25             -                -                -                -                1.25             -                -              
+CMS_doubleBtagging        lnN                  1.024            -                -                -                -                1.024            -                -                -                -              
+CMS_xwh_btagger         lnN                  1.001            1.025            1.025            1.025            -                1.001            1.025            1.025            1.025            -              
+CMS_jet_mass      lnN                  1.02             -                -                -                -                1.02             -                -                -                -              
+CMS_xww_trigger_e       lnN                  -                -                -                -                -                1.01             1.01             1.01             1.01             -              
+CMS_xww_trigger_m       lnN                  1.01             1.01             1.01             1.01             -                -                -                -                -                -              
+CMS_xww_XS_qq_PDF       lnN                  1.049            -                -                -                -                1.049            -                -                -                -              
+CMS_xww_XS_qq_scale     lnN                  1.076            -                -                -                -                1.076            -                -                -                -              
+lumi_8TeV               lnN                  1.026            1.026            1.026            1.026            -                1.026            1.026            1.026            1.026            -              
+Deco_TTbar_xwh_signal_region_mu_ALLP_mlvj_eig0  param  0.0 2.0
+CMS_sig_p1_scale_e  param  0.0 1.0
+CMS_sig_p1_scale_m  param  0.0 1.0
+CMS_sig_p1_jes  param  0.0 1.0
+Deco_WJets0_xwh_sim_mu_ALLP_mlvj_eig0  param  0.0 1.4
+Deco_WJets0_xwh_sim_mu_ALLP_mlvj_eig3  param  0.0 1.4
+Deco_WJets0_xwh_sim_mu_ALLP_mlvj_eig2  param  0.0 1.4
+CMS_sig_p2_jer  param  0.0 1.0
+CMS_sig_p2_jes  param  0.0 1.0
+Deco_WJets0_xwh_sb_lo_from_fitting_mu_ALLP_mlvj_eig1  param  0.0 1.4
+Deco_WJets0_xwh_sb_lo_from_fitting_mu_ALLP_mlvj_eig0  param  0.0 1.4
+Deco_WJets0_xwh_sb_lo_from_fitting_mu_ALLP_mlvj_eig2  param  0.0 1.4
+Deco_TTbar_xwh_signal_region_el_ALLP_mlvj_eig0  param  0.0 2.0
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig2  param  0.0 1.4
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig3  param  0.0 1.4
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig0  param  0.0 1.4
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig1  param  0.0 1.4
+Deco_WJets0_xwh_sim_mu_ALLP_mlvj_eig1  param  0.0 1.4
+Deco_WJets0_xwh_sb_lo_from_fitting_el_ALLP_mlvj_eig2  param  0.0 1.4
+Deco_WJets0_xwh_sb_lo_from_fitting_el_ALLP_mlvj_eig0  param  0.0 1.4
+Deco_WJets0_xwh_sb_lo_from_fitting_el_ALLP_mlvj_eig1  param  0.0 1.4
+CMS_sig_p2_scale_e  param  0.0 1.0
+CMS_sig_p2_scale_m  param  0.0 1.0

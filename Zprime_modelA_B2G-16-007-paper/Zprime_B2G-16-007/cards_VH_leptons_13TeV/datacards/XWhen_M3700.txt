@@ -1,0 +1,65 @@
+Combination of XWhenb=XWhenb_M3700.txt  XWhenbb=XWhenbb_M3700.txt
+imax 2 number of bins
+jmax 5 number of processes minus 1
+kmax 47 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *         XWhenb    workspaces/XWhenb.root Vh_2015:$PROCESS
+shapes data_obs  XWhenb    workspaces/XWhenb.root Vh_2015:data_obs
+shapes *         XWhenbb   workspaces/XWhenbb.root Vh_2015:$PROCESS
+shapes data_obs  XWhenbb   workspaces/XWhenbb.root Vh_2015:data_obs
+----------------------------------------------------------------------------------------------------------------------------------
+bin          XWhenb   XWhenbb
+observation  -1.0     -1.0   
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                      XWhenb             XWhenb             XWhenb             XWhenb             XWhenbb            XWhenbb            XWhenbb            XWhenbb          
+process                                  XWh_M3700_XWhenb   Top                Main_XWhenb        VV                 XWh_M3700_XWhenbb  Top                VV                 Main_XWhenbb     
+process                                  -1                 1                  2                  3                  0                  1                  3                  4                
+rate                                     24.6073            25.7910            45.6220            2.0066             14.3370            7.0175             0.6750             1.0124           
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_XWhenb_altf_Main    lnN              -                  -                  1.135              -                  -                  -                  -                  -                
+CMS_XWhenb_norm_Main    lnN              -                  -                  1.501              -                  -                  -                  -                  -                
+CMS_XWhenb_norm_Top     lnN              -                  1.023              -                  -                  -                  -                  -                  -                
+CMS_XWhenb_norm_VV      lnN              -                  -                  -                  1.044              -                  -                  -                  -                
+CMS_XWhenb_sf_Top       lnN              -                  1.039              -                  -                  -                  -                  -                  -                
+CMS_XWhenbb_altf_Main   lnN              -                  -                  -                  -                  -                  -                  -                  1.524            
+CMS_XWhenbb_norm_Main   lnN              -                  -                  -                  -                  -                  -                  -                  1.941            
+CMS_XWhenbb_norm_Top    lnN              -                  -                  -                  -                  -                  1.033              -                  -                
+CMS_XWhenbb_norm_VV     lnN              -                  -                  -                  -                  -                  -                  1.338              -                
+CMS_XWhenbb_sf_Top      lnN              -                  -                  -                  -                  -                  1.088              -                  -                
+CMS_eff_b_13TeV         lnN              1.139              1.092              -                  1.113              1.102              1.107              1.02               -                
+CMS_eff_e_13TeV         lnN              1.062              1.0                -                  1.062              1.062              1.0                1.062              -                
+CMS_eff_h_13TeV         lnN              1.07               -                  -                  -                  1.07               -                  -                  -                
+CMS_eff_m_13TeV         lnN              1.02               1.0                -                  1.02               1.02               1.0                1.02               -                
+CMS_eff_t_13TeV         lnN              1.03               -                  -                  1.03               1.03               -                  1.03               -                
+CMS_res_j_13TeV         lnN              1.029              -                  -                  -                  1.029              -                  -                  -                
+CMS_scale_j_13TeV       lnN              1.028              1.0                -                  1.036              1.028              1.0                1.062              -                
+CMS_scale_pu_13TeV      lnN              1.03               1.0                -                  1.03               1.03               1.0                1.03               -                
+CMS_xsec_VV             lnN              -                  -                  -                  1.2                -                  -                  1.2                -                
+QCD_scale               lnN              1.112              1.0                -                  1.055              1.112              1.0                1.021              -                
+lumi_13TeV              lnN              1.027              1.0                -                  1.027              1.027              1.0                1.027              -                
+pdf                     lnN              1.03               1.0                -                  1.002              1.03               1.0                1.002              -                
+CMS_sig_p2_scale_e_13TeV  param  0.0 1.0
+CMS_Top_p0_fit_13TeV  param  0.0 1.0
+CMS_VV_p0_jes_13TeV  param  0.0 1.0
+CMS_sig_p1_jes_13TeV  param  0.0 1.0
+CMS_sig_p1_scale_e_13TeV  param  0.0 1.0
+CMS_VV_p1_fit_13TeV  param  0.0 1.0
+CMS_sig_p2_jer_13TeV  param  0.0 1.0
+CMS_VV_p0_QCD_scale_13TeV  param  0.0 1.0
+CMS_Top_p1_fit_13TeV  param  0.0 1.0
+XWhenbb_eig4  param  0.0 1.0
+XWhenbb_eig5  param  0.0 1.0
+CMS_Top_p0_QCD_scale_13TeV  param  0.0 1.0
+XWhenbb_eig0  param  0.0 1.0
+XWhenbb_eig1  param  0.0 1.0
+XWhenbb_eig2  param  0.0 1.0
+XWhenbb_eig3  param  0.0 1.0
+CMS_Top_p0_jes_13TeV  param  0.0 1.0
+XWhenb_eig1   param  0.0 1.0
+XWhenb_eig0   param  0.0 1.0
+XWhenb_eig3   param  0.0 1.0
+XWhenb_eig2   param  0.0 1.0
+XWhenb_eig5   param  0.0 1.0
+XWhenb_eig4   param  0.0 1.0
+CMS_sig_p2_jes_13TeV  param  0.0 1.0
+CMS_VV_p0_fit_13TeV  param  0.0 1.0
