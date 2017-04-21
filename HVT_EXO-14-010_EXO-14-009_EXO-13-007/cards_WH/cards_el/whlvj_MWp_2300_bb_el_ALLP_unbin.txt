@@ -1,0 +1,50 @@
+imax 1
+jmax 4
+kmax *
+--------------- 
+shapes MWp_2300_bb_xwh  CMS_xwh_el1JALLP  whlvj_MWp_2300_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes WJets_xwh  CMS_xwh_el1JALLP  whlvj_MWp_2300_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes TTbar_xwh  CMS_xwh_el1JALLP  whlvj_MWp_2300_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes STop_xwh   CMS_xwh_el1JALLP  whlvj_MWp_2300_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes VV_xwh     CMS_xwh_el1JALLP  whlvj_MWp_2300_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_el_ALLP
+shapes data_obs   CMS_xwh_el1JALLP  whlvj_MWp_2300_bb_el_ALLP_workspace.root workspace4limit_:$PROCESS_xwh_el_ALLP
+--------------- 
+bin CMS_xwh_el1JALLP 
+observation 9.00 
+------------------------------
+bin CMS_xwh_el1JALLP CMS_xwh_el1JALLP CMS_xwh_el1JALLP CMS_xwh_el1JALLP CMS_xwh_el1JALLP
+process MWp_2300_bb_xwh WJets_xwh TTbar_xwh STop_xwh VV_xwh 
+process -1 1 2 3 4
+rate 0.15633 4.654 2.618 3.677 0.370 
+-------------------------------- 
+lumi_8TeV lnN 1.026 - 1.026 1.026 1.026
+CMS_xwh_XS_STop lnN - - - 1.300 -
+CMS_xwh_XS_VV lnN - - - - 1.250
+CMS_xwh_XS_TTbar lnN - - - - 1.054
+CMS_xwh_WJ_norm_el_ALLP lnN - 1.591 - - -
+CMS_xwh_Top_norm_el_ALLP lnN - - 1.000 1.000 -
+CMS_eff_vtag_tau21_sf lnN - - - - -
+CMS_xwh_btagger lnN 1.001 - 1.025 1.025 1.025
+CMS_xwh_prunedmass lnN 1.100 - - - -
+#CMS_eff_vtag_model lnN 1.000 - - - 1.000
+CMS_filter_uncertainty_el lnN 1.086 1.086 1.086 1.086 1.086
+CMS_xwh_trigger_e lnN 1.010 - 1.010 1.010 1.010
+CMS_eff_e lnN 1.030 - 1.030 1.030 1.030
+CMS_scale_e lnN 1.010 - - - -
+CMS_res_e lnN 1.004 - - - -
+CMS_scale_j  lnN 1.034 - - - -
+CMS_res_j  lnN 1.015 - - - -
+CMS_xwh_btag_eff lnN 1.068 - - - -
+Deco_WJets0_xwh_sb_lo_from_fitting_el_ALLP_mlvj_eig0 param 0.0 1.4 
+Deco_WJets0_xwh_sb_lo_from_fitting_el_ALLP_mlvj_eig1 param 0.0 1.4 
+Deco_WJets0_xwh_sb_lo_from_fitting_el_ALLP_mlvj_eig2 param 0.0 1.4 
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig0 param 0.0 1.4 
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig1 param 0.0 1.4 
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig2 param 0.0 1.4 
+Deco_WJets0_xwh_sim_el_ALLP_mlvj_eig3 param 0.0 1.4 
+Deco_TTbar_xwh_signal_region_el_ALLP_mlvj_eig0 param 0.0 2.0 
+CMS_sig_p1_scale_e param 0.0 1.0 
+CMS_sig_p2_scale_e param 0.0 1.0 
+CMS_sig_p1_jes param 0.0 1.0 
+CMS_sig_p2_jes param 0.0 1.0 
+CMS_sig_p2_jer param 0.0 1.0 
