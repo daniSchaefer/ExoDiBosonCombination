@@ -174,7 +174,7 @@ def plot_Asympt_limits(label,mainLabel):
 
   curAsymLimits = getAsymLimits(infile,m);
   if curAsymLimits[0] == -1: continue
-  print m,curAsymLimits[0],curAsymLimits[3]
+  print m,curAsymLimits[0]*scale[mainLabel][m]*2300.
   lastMass = m/1000.
   xbins.append( m/1000. );
   xbins_env.append( m/1000. );

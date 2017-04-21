@@ -1,7 +1,7 @@
 Combination of cards_mu_HPW/wwlvj_BulkG_WW_lvjj_M800_mu_HPW_unbin.txt  cards_mu_HPZ/wwlvj_BulkG_WW_lvjj_M800_mu_HPZ_unbin.txt  cards_el_HPW/wwlvj_BulkG_WW_lvjj_M800_el_HPW_unbin.txt  cards_el_HPZ/wwlvj_BulkG_WW_lvjj_M800_el_HPZ_unbin.txt
 imax 4 number of bins
 jmax 4 number of processes minus 1
-kmax 60 number of nuisance parameters
+kmax 61 number of nuisance parameters
 ----------------------------------------------------------------------------------------------------------------------------------
 shapes BulkWW_xww  ch1         cards_mu_HPW/wwlvj_BulkG_WW_lvjj_M800_mu_HPW_workspace.root workspace4limit_:$PROCESS_mu_HPW
 shapes STop_xww    ch1         cards_mu_HPW/wwlvj_mu_HPW_workspace.root workspace4limit_:$PROCESS_mu_HPW
@@ -38,7 +38,8 @@ rate					  8.50039e+00  4.06293e+02  3.39800e+01  2.62110e+01  1.50073e+02  4.48
 ----------------------------------------------------------------------------------------------------------------------------------
 CMS_eff_e_13TeV         lnN                      -            -            -            -            -            -            -            -            -            -            1.02         -            1.02         1.02         1.02         1.02         -            1.02         1.02         1.02       
 CMS_eff_m_13TeV         lnN                      1.02         -            1.02         1.02         1.02         1.02         -            1.02         1.02         1.02         -            -            -            -            -            -            -            -            -            -          
-CMS_eff_vtag_tau21_sf_13TeV   lnN                1.028/0.972  -            1.028/0.972  -            -            1.028/0.972  -            1.028/0.972  -            -            1.028/0.972  -            1.028/0.972  -            -            1.028/0.972  -            1.028/0.972  -            -          
+CMS_eff_vtag_tau21_sf_13TeV   lnN                1.034  -            1.034  -            -            1.034  -            1.034  -            -            1.034  -            1.034  -            -            1.034  -            1.034  -            -          
+CMS_eff_vtag_tau21_pt_13TeV   lnN                1.031   -             -             1.031   -             1.031   -             -             1.031   -             1.031   -             -             1.031   -             1.031   -             -             1.031   -           
 CMS_mass_res_j_13TeV    lnN                      0.986/1.012  -            -            -            -            1.041/0.953  -            -            -            -            0.984/1.019  -            -            -            -            1.064/0.941  -            -            -            -          
 CMS_mass_scale_j_13TeV   lnN                     0.982/1.016  -            -            -            -            1.125/0.891  -            -            -            -            0.984/1.016  -            -            -            -            1.118/0.880  -            -            -            -          
 CMS_res_e_13TeV         lnN                      -            -            -            -            -            -            -            -            -            -            1.001        -            -            -            -            1.001        -            -            -            -          
