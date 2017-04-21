@@ -1,0 +1,31 @@
+imax 1
+jmax 4
+kmax *
+--------------- 
+bin CMS_xwh_el1JALLP 
+observation 0.00 
+------------------------------
+bin CMS_xwh_el1JALLP CMS_xwh_el1JALLP CMS_xwh_el1JALLP CMS_xwh_el1JALLP CMS_xwh_el1JALLP
+process MWp_2400_bb_xwh WJets_xwh TTbar_xwh STop_xwh VV_xwh 
+process -1 1 2 3 4
+rate 0.06334 0.006 0.002 0.004 0.003
+-------------------------------- 
+lumi_8TeV lnN 1.026 - 1.026 1.026 1.026
+CMS_xwh_XS_STop lnN - - - 1.300 -
+CMS_xwh_XS_VV lnN - - - - 1.250
+CMS_xwh_XS_TTbar lnN - - - - 1.054
+CMS_xwh_WJ_norm_el_ALLP lnN - 1.591 - - -
+CMS_xwh_Top_norm_el_ALLP lnN - - 1.000 1.000 -
+CMS_eff_vtag_tau21_sf lnN - - - - -
+CMS_xwh_btagger lnN 1.001 - 1.025 1.025 1.025
+CMS_xwh_prunedmass lnN 1.100 - - - -
+#CMS_eff_vtag_model lnN 1.000 - - - 1.000
+CMS_filter_uncertainty_el lnN 1.086 1.086 1.086 1.086 1.086
+CMS_xwh_trigger_e lnN 1.010 - 1.010 1.010 1.010
+CMS_eff_e lnN 1.030 - 1.030 1.030 1.030
+CMS_scale_e lnN 1.010 - - - -
+CMS_res_e lnN 1.004 - - - -
+CMS_scale_j  lnN 1.036 - - - -
+CMS_res_j  lnN 1.015 - - - -
+CMS_xwh_btag_eff lnN 1.069 - - - -
+Shape_el_ALLP lnN - - 1.000 - - -
