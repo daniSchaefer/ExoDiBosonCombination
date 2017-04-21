@@ -1,0 +1,138 @@
+>>> including systematics
+>>> using the Profile Likelihood test statistics modified for upper limits (Q_LHC)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVHP  has zero or invalid step size - consider it as constant 
+Info in <Minuit2>: Minuit2Minimizer::SetVariable : Parameter CMS_bkg_fit_slope3_CMS_jj_VVLP  has zero or invalid step size - consider it as constant 
+  r 0.86: CLs = 0.0883 +/- 0.0100
+  r 0.88: CLs = 0.0997 +/- 0.0113
+  r 0.91: CLs = 0.0742 +/- 0.0091
+  r 0.93: CLs = 0.0763 +/- 0.0096
+  r 0.96: CLs = 0.0526 +/- 0.0075
+  r 0.98: CLs = 0.0557 +/- 0.0079
+  r 1.01: CLs = 0.0652 +/- 0.0092
+  r 1.03: CLs = 0.0593 +/- 0.0080
+  r 1.06: CLs = 0.0442 +/- 0.0067
+  r 1.08: CLs = 0.0469 +/- 0.0070
+  r 1.11: CLs = 0.0491 +/- 0.0075
+  r 1.14: CLs = 0.0451 +/- 0.0068
+  r 1.16: CLs = 0.0399 +/- 0.0064
+  r 1.19: CLs = 0.0239 +/- 0.0047
+  r 1.21: CLs = 0.0254 +/- 0.0049
+  r 1.24: CLs = 0.0263 +/- 0.0050
+  r 1.26: CLs = 0.0286 +/- 0.0054
+  r 1.34: CLs = 0.0198 +/- 0.0044
+ after scan x ~ 1.11012, bounds [ 0.88305, 1.33719]
+
+ -- HybridNew, before fit -- 
+Limit: r < 1.11012 +/- 0.22707 [0.88305, 1.33719]
+Fit to 17 points: 1.0471 +/- 0.0112781
+
+ -- Hybrid New -- 
+Limit: r < 1.0471 +/- 0.0112781 @ 95% CL
+Done in 1.56 min (cpu), 1.56 min (real)

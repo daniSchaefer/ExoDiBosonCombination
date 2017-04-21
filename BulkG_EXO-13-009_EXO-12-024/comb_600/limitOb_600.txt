@@ -1,0 +1,38 @@
+>>> including systematics
+>>> using the Profile Likelihood test statistics modified for upper limits (Q_LHC)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+[#0] WARNING:Eval -- RooStatsUtils::MakeNuisancePdf - no constraints found on nuisance parameters in the input model
+  r 0.46: CLs = 0.0909 +/- 0.0019
+  r 0.48: CLs = 0.0762 +/- 0.0017
+  r 0.49: CLs = 0.0707 +/- 0.0017
+  r 0.51: CLs = 0.0614 +/- 0.0016
+  r 0.52: CLs = 0.0559 +/- 0.0015
+  r 0.53: CLs = 0.0451 +/- 0.0013
+  r 0.55: CLs = 0.0422 +/- 0.0013
+  r 0.56: CLs = 0.0342 +/- 0.0012
+  r 0.57: CLs = 0.0300 +/- 0.0011
+  r 0.59: CLs = 0.0275 +/- 0.0011
+  r 0.60: CLs = 0.0219 +/- 0.0009
+  r 0.62: CLs = 0.0196 +/- 0.0009
+ after scan x ~ 0.53303, bounds [ 0.4647, 0.61504]
+
+ -- Hybrid New -- 
+Limit: r < 0.53303 +/- 0.08201 @ 95% CL
+Done in 0.08 min (cpu), 0.08 min (real)

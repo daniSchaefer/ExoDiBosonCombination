@@ -1,0 +1,22 @@
+>>> including systematics
+>>> using the Profile Likelihood test statistics modified for upper limits (Q_LHC)
+>>> method used to compute upper limit is HybridNew
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Search for upper limit using pre-computed grid of p-values
+  r 1.27: CLs = 0.0947 +/- 0.0017
+  r 1.30: CLs = 0.0862 +/- 0.0017
+  r 1.32: CLs = 0.0778 +/- 0.0016
+  r 1.40: CLs = 0.0566 +/- 0.0014
+  r 1.48: CLs = 0.0394 +/- 0.0011
+  r 1.56: CLs = 0.0270 +/- 0.0009
+  r 1.64: CLs = 0.0181 +/- 0.0008
+ after scan x ~ 1.40105, bounds [ 1.29531, 1.63897]
+
+ -- HybridNew, before fit -- 
+Limit: r < 1.40105 +/- 0.23792 [1.29531, 1.63897]
+Fit to 6 points: 1.42154 +/- 0.00242983
+
+ -- Hybrid New -- 
+Limit: r < 1.42154 +/- 0.00242983 @ 95% CL
+Done in 0.02 min (cpu), 0.02 min (real)
