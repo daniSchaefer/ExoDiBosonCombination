@@ -1,0 +1,41 @@
+Combination of CMS_jj_VVHP=datacards/CMS_jj_WZ_2500_8TeV_CMS_jj_VVHP.txt  CMS_jj_VVLP=datacards/CMS_jj_WZ_2500_8TeV_CMS_jj_VVLP.txt
+imax 2 number of bins
+jmax 3 number of processes minus 1
+kmax 9 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes RS1WW_jj     CMS_jj_VVHP  datacards/../workspaces/CMS_jj_RS1WW_2500_8TeV.root w_all:RS1WW_jj_sig_CMS_jj_VVHP
+shapes RS1ZZ_jj     CMS_jj_VVHP  datacards/../workspaces/CMS_jj_RS1ZZ_2500_8TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_VVHP
+shapes WZ_jj        CMS_jj_VVHP  datacards/../workspaces/CMS_jj_WZ_2500_8TeV.root w_all:WZ_jj_sig_CMS_jj_VVHP
+shapes bkg_fit_jj   CMS_jj_VVHP  datacards/../workspaces/CMS_jj_bkg_8TeV.root w_all:CMS_bkg_fit_CMS_jj_VVHP
+shapes data_obs     CMS_jj_VVHP  datacards/../workspaces/CMS_jj_bkg_8TeV.root w_all:data_obs_CMS_jj_VVHP
+shapes RS1WW_jj     CMS_jj_VVLP  datacards/../workspaces/CMS_jj_RS1WW_2500_8TeV.root w_all:RS1WW_jj_sig_CMS_jj_VVLP
+shapes RS1ZZ_jj     CMS_jj_VVLP  datacards/../workspaces/CMS_jj_RS1ZZ_2500_8TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_VVLP
+shapes WZ_jj        CMS_jj_VVLP  datacards/../workspaces/CMS_jj_WZ_2500_8TeV.root w_all:WZ_jj_sig_CMS_jj_VVLP
+shapes bkg_fit_jj   CMS_jj_VVLP  datacards/../workspaces/CMS_jj_bkg_8TeV.root w_all:CMS_bkg_fit_CMS_jj_VVLP
+shapes data_obs     CMS_jj_VVLP  datacards/../workspaces/CMS_jj_bkg_8TeV.root w_all:data_obs_CMS_jj_VVLP
+----------------------------------------------------------------------------------------------------------------------------------
+bin          CMS_jj_VVHP  CMS_jj_VVLP
+observation  7128.0       22328.0    
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                      CMS_jj_VVHP  CMS_jj_VVHP  CMS_jj_VVHP  CMS_jj_VVHP  CMS_jj_VVLP  CMS_jj_VVLP  CMS_jj_VVLP  CMS_jj_VVLP
+process                                  RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj   RS1ZZ_jj     WZ_jj        RS1WW_jj     bkg_fit_jj 
+process                                  -2           -1           0            1            -2           -1           0            1          
+rate 				    0.00000e+00  4.83105e-01  0.00000e+00  1.00000e+00  0.00000e+00  5.55164e-01  0.00000e+00  1.00000e+00  
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_vtag_tau21_sf   lnN              1.15         1.15         1.15         -            0.58         0.58         0.58         -          
+CMS_pu                  lnN              1.03         1.03         1.03         -            1.03         1.03         1.03         -          
+CMS_res_j               lnN              1.04         1.04         1.04         -            1.04         1.04         1.04         -          
+CMS_scale_j             lnN              1.12         1.12         1.12         -            1.12         1.12         1.12         -          
+lumi_8TeV               lnN              1.026        1.026        1.026        -            1.026        1.026        1.026        -          
+CMS_sig_p1_jes  param  0.0 1.0
+CMS_sig_p2_jer  param  0.0 1.0
+CMS_bkg_fit_CMS_jj_VVHP_norm  flatParam
+CMS_bkg_fit_CMS_jj_VVLP_norm  flatParam
+CMS_bkg_fit_slope1_CMS_jj_VVLP  flatParam
+CMS_bkg_fit_slope3_CMS_jj_VVHP  flatParam
+CMS_bkg_fit_slope2_CMS_jj_VVLP  flatParam
+CMS_bkg_fit_slope1_CMS_jj_VVHP  flatParam
+CMS_bkg_fit_slope3_CMS_jj_VVLP  flatParam
+CMS_bkg_fit_slope2_CMS_jj_VVHP  flatParam
+CMS_XS_qq_PDF lnN				    -  1.273  -  -  -  1.273  -  -  
+CMS_XS_qq_scale lnN				    -  1.149  -  -  -  1.149  -  -  

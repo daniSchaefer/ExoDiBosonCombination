@@ -1,0 +1,31 @@
+# Card for process XZZ->ee1JHP
+#imax 1  number of channels
+#jmax 1  number of backgrounds
+#kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------ 
+shapes Bulk_xzz CMS_xzz_ee1JHP xzz_ee1JHP.input.root  w:Bulk_xzz_ELE1JHP
+shapes backgroundxzz CMS_xzz_ee1JHP xzz_ee1JHP.input.root w:background_decorrLevExpo_xzz_ELE1JHP
+shapes data_obs   CMS_xzz_ee1JHP xzz_ee1JHP.input.root w:dataset_obs_xzz_ELE1JHP
+------------ 
+bin         CMS_xzz_ee1JHP
+observation   360
+------------ 
+bin                CMS_xzz_ee1JHP	CMS_xzz_ee1JHP
+process            Bulk_xzz			backgroundxzz
+process            0			1
+rate               2.82711		369.523
+------------ 
+lumi_8TeV			lnN	1.026			1.0
+CMS_xzz_trigger_e	lnN	1.010000    	1.0
+CMS_eff_e		lnN	1.030000    	1.0
+CMS_scale_e		lnN	1.000000    	1.0
+CMS_scale_j		lnN	1.010000/0.990000	1.0
+CMS_eff_vtag_tau21_sf		lnN	1.080000/0.920000	1.0
+CMS_pu		lnN	1.006000    			1.0
+CMS_xzz_alphanorm1b		lnN	 1.0 			1.0113
+CMS_xzz_bkg1JHPeep0	lnN    ---	1.05921
+expLev_xzz_ALL_1JHP_eig0	param		0.000401985	1.28631
+expLev_xzz_ALL_1JHP_eig1	param		0.00131235	1.79748
+CMS_sig_p1_scale_e param 0.0 1.0 
+CMS_sig_p2_jes param 0.0 1.0
+CMS_sig_p2_jer param 0.0 1.0 
