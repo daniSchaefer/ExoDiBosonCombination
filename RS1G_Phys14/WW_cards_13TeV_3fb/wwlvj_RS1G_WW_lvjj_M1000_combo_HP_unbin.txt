@@ -1,0 +1,63 @@
+Combination of wwlvj_RS1G_WW_lvjj_M1000_el_HP_unbin.txt  wwlvj_RS1G_WW_lvjj_M1000_mu_HP_unbin.txt
+imax 2 number of bins
+jmax 3 number of processes minus 1
+kmax 39 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes RSWW_xww   ch1        wwlvj_RS1G_WW_lvjj_M1000_el_HP_workspace.root workspace4limit_:$PROCESS_el_HP
+shapes STop_xww   ch1        wwlvj_RS1G_WW_lvjj_M1000_el_HP_workspace.root workspace4limit_:$PROCESS_el_HP
+shapes TTbar_xww  ch1        wwlvj_RS1G_WW_lvjj_M1000_el_HP_workspace.root workspace4limit_:$PROCESS_el_HP
+shapes WJets_xww  ch1        wwlvj_RS1G_WW_lvjj_M1000_el_HP_workspace.root workspace4limit_:$PROCESS_el_HP
+shapes data_obs   ch1        wwlvj_RS1G_WW_lvjj_M1000_el_HP_workspace.root workspace4limit_:$PROCESS_xww_el_HP
+shapes RSWW_xww   ch2        wwlvj_RS1G_WW_lvjj_M1000_mu_HP_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes STop_xww   ch2        wwlvj_RS1G_WW_lvjj_M1000_mu_HP_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes TTbar_xww  ch2        wwlvj_RS1G_WW_lvjj_M1000_mu_HP_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes WJets_xww  ch2        wwlvj_RS1G_WW_lvjj_M1000_mu_HP_workspace.root workspace4limit_:$PROCESS_mu_HP
+shapes data_obs   ch2        wwlvj_RS1G_WW_lvjj_M1000_mu_HP_workspace.root workspace4limit_:$PROCESS_xww_mu_HP
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1          ch2        
+observation  431.0        720.0      
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                            ch1          ch1          ch1          ch1          ch2          ch2          ch2          ch2        
+process                                        RSWW_xww     WJets_xww    STop_xww     TTbar_xww    RSWW_xww     WJets_xww    STop_xww     TTbar_xww  
+process                                        0            1            2            3            0            1            2            3          
+rate                                           0.7105       281.6860     23.3780      105.8050     1.1016       477.3090     43.5310      181.3090   
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_e_13TeV         lnN                    1.02         -            1.02         1.02         -            -            -            -          
+CMS_eff_m_13TeV         lnN                    -            -            -            -            1.02         -            1.02         1.02       
+CMS_eff_vtag_tau21_sf_13TeV   lnN              1.000/1.000  -            -            -            1.000/1.000  -            -            -          
+CMS_res_e_13TeV         lnN                    1.001        -            -            -            -            -            -            -          
+CMS_res_j_13TeV         lnN                    1.003        -            -            -            1.003        -            -            -          
+CMS_res_m_13TeV         lnN                    -            -            -            -            1.001        -            -            -          
+CMS_scale_e_13TeV       lnN                    1.002        -            -            -            -            -            -            -          
+CMS_scale_j_13TeV       lnN                    1.011        -            -            -            1.011        -            -            -          
+CMS_scale_m_13TeV       lnN                    -            -            -            -            1.007        -            -            -          
+CMS_xww_WJ_norm_el_HP_13TeV   lnN              -            1.071        -            -            -            -            -            -          
+CMS_xww_WJ_norm_mu_HP_13TeV   lnN              -            -            -            -            -            1.056        -            -          
+CMS_xww_XS_STop_13TeV   lnN                    -            -            1.3          -            -            -            1.3          -          
+CMS_xww_btag_eff_13TeV   lnN                   1.002        -            -            -            1.002        -            -            -          
+CMS_xww_trigger_e_13TeV   lnN                  1.01         -            1.01         1.01         -            -            -            -          
+CMS_xww_trigger_m_13TeV   lnN                  -            -            -            -            1.01         -            1.01         1.01       
+lumi_13TeV              lnN                    1.026        -            1.026        1.026        1.026        -            1.026        1.026      
+CMS_sig_p2_scale_e_13TeV  param  0.0 1.0
+Deco_WJets0_xww_sb_lo_from_fitting_mu_HP_mlvj_eig1_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sim_el_HP_mlvj_eig0_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sb_lo_from_fitting_el_HP_mlvj_eig1_13TeV  param  0.0 1.4
+CMS_sig_p1_scale_m_13TeV  param  0.0 1.0
+CMS_sig_p1_jes_13TeV  param  0.0 1.0
+Deco_WJets0_xww_sim_mu_HP_mlvj_eig0_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sim_el_HP_mlvj_eig3_13TeV  param  0.0 1.4
+CMS_sig_p1_scale_e_13TeV  param  0.0 1.0
+CMS_sig_p2_jer_13TeV  param  0.0 1.0
+Deco_WJets0_xww_sb_lo_from_fitting_el_HP_mlvj_eig2_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sb_lo_from_fitting_mu_HP_mlvj_eig0_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sim_el_HP_mlvj_eig2_13TeV  param  0.0 1.4
+Deco_TTbar_xww_signal_region_mu_HP_mlvj_eig0_13TeV  param  0.0 2.0
+Deco_WJets0_xww_sb_lo_from_fitting_mu_HP_mlvj_eig2_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sim_mu_HP_mlvj_eig1_13TeV  param  0.0 1.4
+Deco_TTbar_xww_signal_region_el_HP_mlvj_eig0_13TeV  param  0.0 2.0
+Deco_WJets0_xww_sb_lo_from_fitting_el_HP_mlvj_eig0_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sim_el_HP_mlvj_eig1_13TeV  param  0.0 1.4
+Deco_WJets0_xww_sim_mu_HP_mlvj_eig3_13TeV  param  0.0 1.4
+CMS_sig_p2_scale_m_13TeV  param  0.0 1.0
+Deco_WJets0_xww_sim_mu_HP_mlvj_eig2_13TeV  param  0.0 1.4
+CMS_sig_p2_jes_13TeV  param  0.0 1.0

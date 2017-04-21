@@ -1,0 +1,32 @@
+# Fully Hadronic VV analysis
+imax 1
+jmax 3
+kmax *
+---------------
+shapes data_obs CMS_jj_VVHP ../workspaces/CMS_jj_bkg_13TeV.root w_all:data_obs_CMS_jj_VVHP
+shapes bkg_fit_jj CMS_jj_VVHP ../workspaces/CMS_jj_bkg_13TeV.root w_all:CMS_bkg_fit_CMS_jj_VVHP_13TeV
+shapes RS1WW_jj CMS_jj_VVHP ../workspaces/CMS_jj_RS1WW_1600_13TeV.root w_all:RS1WW_jj_sig_CMS_jj_VVHP
+shapes RS1ZZ_jj CMS_jj_VVHP ../workspaces/CMS_jj_RS1ZZ_1600_13TeV.root w_all:RS1ZZ_jj_sig_CMS_jj_VVHP
+shapes WZ_jj CMS_jj_VVHP ../workspaces/CMS_jj_WZ_1600_13TeV.root w_all:WZ_jj_sig_CMS_jj_VVHP
+---------------
+bin          CMS_jj_VVHP
+observation   8323
+------------------------------
+bin                      CMS_jj_VVHP       CMS_jj_VVHP      CMS_jj_VVHP      CMS_jj_VVHP      
+process                 RS1WW_jj RS1ZZ_jj WZ_jj     bkg_fit_jj     
+process                 -2 -1 0        1          
+rate                                     2.41590e+01  0.00000e+00  0.00000e+00  1.00000e+00  
+--------------------------------
+# signal scaled by 0.01 to a cross section of 10/fb and also scale factor of 0.7396 are applied.
+lumi_13TeV       lnN  1.026  1.026  1.026    - 
+CMS_eff_vtag_tau21_sf_13TeV         lnN  1.15  1.15  1.15      - # tau21 efficiency
+CMS_scale_j_13TeV         lnN  1.120  1.120  1.120      - # jet energy scale
+CMS_res_j_13TeV         lnN  1.040  1.040  1.040      - # jet energy resolution
+CMS_pu_13TeV         lnN  1.030  1.030  1.030      - # pileup
+# Parametric shape uncertainties, entered by hand.
+CMS_sig_p1_jes_13TeV    param   0.0   1.0   # dijet mass shift due to JES uncertainty
+CMS_sig_p2_jer_13TeV     param   0.0   1.0   # dijet mass resolution shift due to JER uncertainty
+CMS_bkg_fit_CMS_jj_VVHP_13TeV_norm           flatParam  # Normalization uncertainty on background slope
+CMS_bkg_fit_slope1_CMS_jj_VVHP_13TeV         flatParam  # Mean and absolute uncertainty on background slope
+CMS_bkg_fit_slope2_CMS_jj_VVHP_13TeV         flatParam  # Mean and absolute uncertainty on background slope
+CMS_bkg_fit_slope3_CMS_jj_VVHP_13TeV         flatParam  # Mean and absolute uncertainty on background slope

@@ -1,0 +1,49 @@
+Combination of xzz_ee1JHP=xzz_ee1JHP.1100.txt  xzz_mm1JHP=xzz_mm1JHP.1100.txt  xzz_ee1JLP=xzz_ee1JLP.1100.txt  xzz_mm1JLP=xzz_mm1JLP.1100.txt
+imax 4 number of bins
+jmax 1 number of processes minus 1
+kmax 23 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes Bulk_xzz       xzz_ee1JHP     xzz_ee1JHP.input.root w:Bulk_xzz_ELE1JHP
+shapes backgroundxzz  xzz_ee1JHP     xzz_ee1JHP.input.root w:background_decorrLevExpo_xzz_ELE1JHP
+shapes data_obs       xzz_ee1JHP     xzz_ee1JHP.input.root w:dataset_obs_xzz_ELE1JHP
+shapes Bulk_xzz       xzz_ee1JLP     xzz_ee1JLP.input.root w:Bulk_xzz_ELE1JLP
+shapes backgroundxzz  xzz_ee1JLP     xzz_ee1JLP.input.root w:background_decorrLevExpo_xzz_ELE1JLP
+shapes data_obs       xzz_ee1JLP     xzz_ee1JLP.input.root w:dataset_obs_xzz_ELE1JLP
+shapes Bulk_xzz       xzz_mm1JHP     xzz_mm1JHP.input.root w:Bulk_xzz_MU1JHP
+shapes backgroundxzz  xzz_mm1JHP     xzz_mm1JHP.input.root w:background_decorrLevExpo_xzz_MU1JHP
+shapes data_obs       xzz_mm1JHP     xzz_mm1JHP.input.root w:dataset_obs_xzz_MU1JHP
+shapes Bulk_xzz       xzz_mm1JLP     xzz_mm1JLP.input.root w:Bulk_xzz_MU1JLP
+shapes backgroundxzz  xzz_mm1JLP     xzz_mm1JLP.input.root w:background_decorrLevExpo_xzz_MU1JLP
+shapes data_obs       xzz_mm1JLP     xzz_mm1JLP.input.root w:dataset_obs_xzz_MU1JLP
+----------------------------------------------------------------------------------------------------------------------------------
+bin          xzz_ee1JHP   xzz_mm1JHP   xzz_ee1JLP   xzz_mm1JLP 
+observation  360.0        575.0        439.0        710.0      
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                      xzz_ee1JHP     xzz_ee1JHP     xzz_mm1JHP     xzz_mm1JHP     xzz_ee1JLP     xzz_ee1JLP     xzz_mm1JLP     xzz_mm1JLP   
+process                                  Bulk_xzz       backgroundxzz  Bulk_xzz       backgroundxzz  Bulk_xzz       backgroundxzz  Bulk_xzz       backgroundxzz
+process                                  0              1              0              1              0              1              0              1            
+rate                                     4.04258e+01  3.69523e+02  4.58575e+01  6.22260e+02  9.36276e+00  4.08199e+02  1.05194e+01  6.71375e+02  
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_e               lnN              1.03           1.0            -              -              1.03           1.0            -              -            
+CMS_eff_m               lnN              -              -              1.04           1.0            -              -              1.04           1.0          
+CMS_eff_vtag_tau21_sf   lnN              1.080/0.920    1.0            1.080/0.920    1.0            0.700/1.300    1.0            0.700/1.300    1.0          
+CMS_pu                  lnN              1.006          1.0            1.006          1.0            1.006          1.0            1.006          1.0          
+CMS_scale_j             lnN              1.010/0.990    1.0            1.010/0.990    1.0            1.010/0.990    1.0            1.010/0.990    1.0          
+CMS_scale_m             lnN              -              -              1.01           1.0            -              -              1.01           1.0          
+CMS_xzz_alphanorm1b     lnN              1.0            1.0113         1.0            1.0113         1.0            1.00888        1.0            1.00888      
+CMS_xzz_bkg1JHPeep0     lnN              -              1.05921        -              -              -              -              -              -            
+CMS_xzz_bkg1JHPmmp0     lnN              -              -              -              1.0452         -              -              -              -            
+CMS_xzz_bkg1JLPeep0     lnN              -              -              -              -              -              1.04043        -              -            
+CMS_xzz_bkg1JLPmmp0     lnN              -              -              -              -              -              -              -              1.03152      
+CMS_xzz_trigger_e       lnN              1.01           1.0            -              -              1.01           1.0            -              -            
+CMS_xzz_trigger_m       lnN              -              -              1.03           1.0            -              -              1.03           1.0          
+lumi_8TeV               lnN              1.026          1.0            1.026          1.0            1.026          1.0            1.026          1.0          
+expLev_xzz_ALL_1JHP_eig1  param  0.00131235 1.79748
+expLev_xzz_ALL_1JHP_eig0  param  0.000401985 1.28631
+CMS_sig_p1_scale_e  param  0.0 1.0
+CMS_sig_p1_scale_m  param  0.0 1.0
+CMS_sig_p2_scale_m  param  0.0 1.0
+expLev_xzz_ALL_1JLP_eig1  param  -0.00149669 1.19705
+expLev_xzz_ALL_1JLP_eig0  param  0.000435208 1.00993
+CMS_sig_p2_jer  param  0.0 1.0
+CMS_sig_p2_jes  param  0.0 1.0

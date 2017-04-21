@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/afs/cern.ch/work/h/hinzmann/limit_combination/CMSSW_7_1_5/bin/slc6_amd64_gcc481/combineCards.py", line 46, in <module>
+    file = open(fname, "r")
+IOError: [Errno 2] No such file or directory: 'wwlvj_RS1G_WW_lvjj_M1900_el_HP_unbin.txt'

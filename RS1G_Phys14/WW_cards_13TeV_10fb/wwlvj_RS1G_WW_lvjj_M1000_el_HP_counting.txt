@@ -1,0 +1,27 @@
+imax 1
+jmax 3
+kmax *
+--------------- 
+bin CMS_xww_el1JHP 
+observation 480.00 
+------------------------------
+bin CMS_xww_el1JHP CMS_xww_el1JHP CMS_xww_el1JHP CMS_xww_el1JHP
+process RSWW_xww WJets_xww TTbar_xww STop_xww
+process -1 1 2 3
+rate 2.00886 372.717 121.079 29.521
+-------------------------------- 
+lumi_13TeV lnN 1.026 - 1.026 1.026 1.026
+CMS_xww_XS_STop_13TeV lnN - - - 1.300 -
+CMS_xww_XS_VV_13TeV lnN - - - - 1.250
+CMS_xww_WJ_norm_el_HP_13TeV lnN - 1.039 - - -
+CMS_xww_Top_norm_el_HP_13TeV lnN - - 1.000 1.000 -
+CMS_eff_vtag_tau21_sf_13TeV lnN 1.000/1.000 - - - 1.000/1.000
+#CMS_eff_vtag_model_13TeV lnN 1.000 - - - 1.000
+CMS_xww_trigger_e_13TeV lnN 1.010 - 1.010 1.010 1.010
+CMS_eff_e_13TeV lnN 1.020 - 1.020 1.020 1.020
+CMS_scale_e_13TeV lnN 1.002 - - - -
+CMS_res_e_13TeV lnN 1.001 - - - -
+CMS_scale_j_13TeV  lnN 1.011 - - - -
+CMS_res_j_13TeV  lnN 1.003 - - - -
+CMS_xww_btag_eff_13TeV lnN 1.002 - - - -
+Shape_el_HP_13TeV lnN - - 1.000 - - -
