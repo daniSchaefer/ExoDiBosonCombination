@@ -1,0 +1,3 @@
+M0	M+	g	gv	ch	cq	cl	c3	cvvw	cvvhh	cvvv	total_widthV0GeV	BRWW	BRhZ	BRuu	BRdd	BRll	BRnunu	BRbb	BRtt	total_widthV+GeV	BRZW	BRWGam	BRWh	BRud	BRus	BRlnu	BRtb	CX+(pb)	CX0(pb)	CX-(pb)
+M0	M+	g	gv	ch	cq	cl	c3	cvvw	cvvhh	cvvv	total_widthV0GeV	BRWW	BRhZ	BRuu	BRdd	BRll	BRnunu	BRbb	BRtt	total_widthV+GeV	BRZW	BRWGam	BRWh	BRud	BRus	BRlnu	BRtb	CX+(pb)	CX0(pb)	CX-(pb)
+
