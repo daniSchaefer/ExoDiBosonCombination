@@ -1,0 +1,109 @@
+
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 1000
+VVHP efficiency (nPass/nTot) =  343/49800 = 0.7 percent
+VVLP efficiency (nPass/nTot) =  735/49800 = 1.5 percent
+WWHP efficiency (nPass/nTot) =  38/49800 = 0.1 percent
+WWLP efficiency (nPass/nTot) =  166/49800 = 0.3 percent
+WZHP efficiency (nPass/nTot) =  183/49800 = 0.4 percent
+WZLP efficiency (nPass/nTot) =  398/49800 = 0.8 percent
+ZZHP efficiency (nPass/nTot) =  122/49800 = 0.2 percent
+ZZLP efficiency (nPass/nTot) =  171/49800 = 0.3 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 1400
+VVHP efficiency (nPass/nTot) =  2172/49800 = 4.4 percent
+VVLP efficiency (nPass/nTot) =  2734/49800 = 5.5 percent
+WWHP efficiency (nPass/nTot) =  263/49800 = 0.5 percent
+WWLP efficiency (nPass/nTot) =  555/49800 = 1.1 percent
+WZHP efficiency (nPass/nTot) =  1567/49800 = 3.1 percent
+WZLP efficiency (nPass/nTot) =  1826/49800 = 3.7 percent
+ZZHP efficiency (nPass/nTot) =  342/49800 = 0.7 percent
+ZZLP efficiency (nPass/nTot) =  353/49800 = 0.7 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 1600
+VVHP efficiency (nPass/nTot) =  2243/50000 = 4.5 percent
+VVLP efficiency (nPass/nTot) =  2833/50000 = 5.7 percent
+WWHP efficiency (nPass/nTot) =  290/50000 = 0.6 percent
+WWLP efficiency (nPass/nTot) =  593/50000 = 1.2 percent
+WZHP efficiency (nPass/nTot) =  1649/50000 = 3.3 percent
+WZLP efficiency (nPass/nTot) =  1942/50000 = 3.9 percent
+ZZHP efficiency (nPass/nTot) =  304/50000 = 0.6 percent
+ZZLP efficiency (nPass/nTot) =  298/50000 = 0.6 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 1800
+VVHP efficiency (nPass/nTot) =  2380/50000 = 4.8 percent
+VVLP efficiency (nPass/nTot) =  3020/50000 = 6.0 percent
+WWHP efficiency (nPass/nTot) =  295/50000 = 0.6 percent
+WWLP efficiency (nPass/nTot) =  621/50000 = 1.2 percent
+WZHP efficiency (nPass/nTot) =  1776/50000 = 3.6 percent
+WZLP efficiency (nPass/nTot) =  2058/50000 = 4.1 percent
+ZZHP efficiency (nPass/nTot) =  309/50000 = 0.6 percent
+ZZLP efficiency (nPass/nTot) =  341/50000 = 0.7 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 2000
+VVHP efficiency (nPass/nTot) =  2322/50000 = 4.6 percent
+VVLP efficiency (nPass/nTot) =  3199/50000 = 6.4 percent
+WWHP efficiency (nPass/nTot) =  259/50000 = 0.5 percent
+WWLP efficiency (nPass/nTot) =  646/50000 = 1.3 percent
+WZHP efficiency (nPass/nTot) =  1764/50000 = 3.5 percent
+WZLP efficiency (nPass/nTot) =  2215/50000 = 4.4 percent
+ZZHP efficiency (nPass/nTot) =  299/50000 = 0.6 percent
+ZZLP efficiency (nPass/nTot) =  338/50000 = 0.7 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 2500
+VVHP efficiency (nPass/nTot) =  2181/47800 = 4.6 percent
+VVLP efficiency (nPass/nTot) =  3122/47800 = 6.5 percent
+WWHP efficiency (nPass/nTot) =  286/47800 = 0.6 percent
+WWLP efficiency (nPass/nTot) =  617/47800 = 1.3 percent
+WZHP efficiency (nPass/nTot) =  1592/47800 = 3.3 percent
+WZLP efficiency (nPass/nTot) =  2144/47800 = 4.5 percent
+ZZHP efficiency (nPass/nTot) =  303/47800 = 0.6 percent
+ZZLP efficiency (nPass/nTot) =  361/47800 = 0.8 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 3000
+VVHP efficiency (nPass/nTot) =  2149/49800 = 4.3 percent
+VVLP efficiency (nPass/nTot) =  3469/49800 = 7.0 percent
+WWHP efficiency (nPass/nTot) =  272/49800 = 0.5 percent
+WWLP efficiency (nPass/nTot) =  691/49800 = 1.4 percent
+WZHP efficiency (nPass/nTot) =  1520/49800 = 3.1 percent
+WZLP efficiency (nPass/nTot) =  2354/49800 = 4.7 percent
+ZZHP efficiency (nPass/nTot) =  357/49800 = 0.7 percent
+ZZLP efficiency (nPass/nTot) =  424/49800 = 0.9 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 3500
+VVHP efficiency (nPass/nTot) =  2107/50000 = 4.2 percent
+VVLP efficiency (nPass/nTot) =  3519/50000 = 7.0 percent
+WWHP efficiency (nPass/nTot) =  312/50000 = 0.6 percent
+WWLP efficiency (nPass/nTot) =  680/50000 = 1.4 percent
+WZHP efficiency (nPass/nTot) =  1420/50000 = 2.8 percent
+WZLP efficiency (nPass/nTot) =  2350/50000 = 4.7 percent
+ZZHP efficiency (nPass/nTot) =  375/50000 = 0.8 percent
+ZZLP efficiency (nPass/nTot) =  489/50000 = 1.0 percent
+
+
+-----------------------------------------
+Masspoint (Wprime-->WHallhad): 4000
+VVHP efficiency (nPass/nTot) =  1902/50000 = 3.8 percent
+VVLP efficiency (nPass/nTot) =  3591/50000 = 7.2 percent
+WWHP efficiency (nPass/nTot) =  282/50000 = 0.6 percent
+WWLP efficiency (nPass/nTot) =  761/50000 = 1.5 percent
+WZHP efficiency (nPass/nTot) =  1282/50000 = 2.6 percent
+WZLP efficiency (nPass/nTot) =  2306/50000 = 4.6 percent
+ZZHP efficiency (nPass/nTot) =  338/50000 = 0.7 percent
+ZZLP efficiency (nPass/nTot) =  524/50000 = 1.0 percent
