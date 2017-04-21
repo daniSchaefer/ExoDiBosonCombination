@@ -1,0 +1,36 @@
+# Counting experiment with multiple channels
+# Wprime with 4 channels
+imax 1  number of channels
+jmax 5  number of backgrounds ('*' = automatic)
+kmax 19  number of nuisance parameters (sources of systematical uncertainties)
+------------
+# ch=3  lumi=19521  sigEff=0.436005  sigEffErr=0.00606367  sigxsec=0.00198153  nSigEvt=16.8653  nSigEvtErr=1.01391
+bin           mmm   
+observation   0  
+------------
+bin          mmm  mmm  mmm  mmm  mmm  mmm  
+process      sig   WZJ  DYJ  TTJ  GVJ  ZZ  
+process      0    1    2    3    4    5    
+rate         16.8653  0.823658  0  0  0  0.0671594  
+------------
+MCStat    lnN 1.014  1.120  1.000  1.000  1.000  1.213  
+METRes    lnN 1.002  1.016  1.016  1.016  1.016  1.016  
+PU        lnN 1.001  1.007  1.007  1.007  1.007  1.007  
+MuPtRes   lnN 1.027  1.007  1.007  1.007  1.007  1.007  
+MuPtScale lnN 1.013  1.200  1.200  1.200  1.200  1.200  
+ElEnScale lnN  -      -      -      -      -      -     
+PDF       lnN  -     1.100  1.100  1.100  1.100  1.100  
+#
+ElTrig   lnN  -     -     -     -     -     -    
+ElReco   lnN  -     -     -     -     -     -    
+ElIDIso  lnN  -     -     -     -     -     -    
+MuTrig   lnN 1.05  1.05  1.05  1.05  1.05  1.05  
+MuReco   lnN 1.06  1.06  1.06  1.06  1.06  1.06  
+MuIDIso  lnN 1.09  1.09  1.09  1.09  1.09  1.09  
+#
+MatrixM  lnN  -     -    1.30  1.15   -     -    
+ZGxsec   lnN  -     -     -     -    1.500  -    
+ZZxsec   lnN  -     -     -     -     -    1.30  
+WZRatio  lnN  -    1.050  -     -     -     -    
+WZQCDSc  lnN  -    1.150  -     -     -     -    
+lumi     lnN 1.026 1.026 1.026 1.026 1.026 1.026 

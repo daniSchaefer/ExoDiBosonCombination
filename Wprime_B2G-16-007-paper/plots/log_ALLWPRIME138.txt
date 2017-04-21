@@ -1,0 +1,4 @@
+Observed excluded mass for HVTB is 2.34 TeV with signal strenght 1.06618642899
+Observed excluded mass for HVTB is 2.34 TeV with signal strenght 1.06618642899
+Expected excluded mass for HVTB is 2.37 TeV with signal strenght 1.00708007812
+Observed excluded mass for HVTB is 2.34 TeV with signal strenght 1.06618642899

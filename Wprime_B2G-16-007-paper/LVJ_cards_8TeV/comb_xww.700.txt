@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/afs/cern.ch/user/b/bonato/scratch0/PhysAnalysis/EXOVV_2012/CMGTools/CMSSW_5_3_9/bin/slc5_amd64_gcc462/combineCards.py", line 37, in <module>
+    file = open(fname, "r")
+IOError: [Errno 2] No such file or directory: 'wwlvj_BulkG_WW_inclusive_c0p2_M700_el_10_00_HP_unbin.txt'
